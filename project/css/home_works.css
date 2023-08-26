@@ -1,0 +1,87 @@
+
+/* GMAIL BLOCK */
+
+.gmail_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.inner_gmail_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid orange;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.form_gmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_gmail button {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* MOVE BLOCK */
+
+.move_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.parent_block {
+    height: 500px;
+    width: 500px;
+    border: 2px solid orange;
+    position: relative;
+    margin: 0 auto;
+}
+
+.child_block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+
+
+}
+
+.inner_move_block {
+    margin-top: 50px;
+}
+
+/* STOP WATCH */
+
+.time {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid orange;
+    margin-top: 40px;
+}
+
+.time_block {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.stopwatch {
+    padding: 100px 0;
+    background: black;
+}
+
+.time_buttons {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
